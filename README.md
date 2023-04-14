@@ -12,7 +12,7 @@ PseudoApkSigner uses a trick to sign APKs. While it generates .MF and .SF files 
 ## Adding to project
 Add this line to module-level build.gradle dependencies:
 ```kotlin
-implementation("io.github.solrudev:pseudoapksigner:1.7")
+implementation("io.github.solrudev:pseudoapksigner:1.8")
 ```
 
 ## Usage

@@ -14,7 +14,7 @@ java {
 
 val publishArtifactId = "pseudoapksigner"
 val publishGroupId = "io.github.solrudev"
-val publishVersion = "1.7"
+val publishVersion = "1.8"
 
 group = publishGroupId
 version = publishVersion

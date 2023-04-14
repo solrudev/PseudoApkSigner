@@ -10,6 +10,11 @@ PseudoApkSigner uses a trick to sign APKs. While it generates .MF and .SF files 
 3. You're done, you can now use this .RSA file as a template file for PseudoApkSigner
 
 ## Adding to project
+```kotlin
+repositories {
+    mavenCentral()
+}
+```
 Add this line to module-level build.gradle dependencies:
 ```kotlin
 implementation("io.github.solrudev:pseudoapksigner:1.8")

@@ -75,5 +75,6 @@ public class PseudoApkSignerInputStream extends InputStream {
     @Override
     public void close() throws IOException {
         mPipeInput.close();
+        mPipeOutput.close();
     }
 }
